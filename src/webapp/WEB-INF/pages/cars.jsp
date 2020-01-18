@@ -2,7 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Cars</title>
+    <title>
+${title}
+    </title>
 </head>
 <body>
 <a href="${pageContext.request.contextPath}/hello"> Перейти на hello</a>
