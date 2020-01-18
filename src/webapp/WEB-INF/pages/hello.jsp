@@ -6,6 +6,14 @@
     <h1>${msq}</h1>
 </c:forEach>
 
-<a href="${pageContext.request.contextPath}/cars"> Перейти на cars</a>
+<form method="get" action="/cars">
+    <table>
+        <tr>
+            <td><label for="loginField">locale</label></td>
+            <td><input id="loginField" type="text" name="locale"></td>
+        </tr>
+    </table>
+</form>
+
 </body>
 </html>
